@@ -1,182 +1,265 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
-          rel="stylesheet"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<!-- NAV -->
-<nav>
-    <div class="nav-logo">ThuanHuynh</div>
-    <div class="nav-links">
-        <button class="nav-btn active" onclick="navigateToSection('home')">Home</button>
-        <button class="nav-btn" onclick="navigateToSection('projects')">Projects</button>
-        <button class="nav-btn" onclick="navigateToSection('contact')">Contact</button>
-    </div>
-</nav>
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">ThuanHuynh</div>
+        <div class="nav-links">
+            <button class="nav-btn active" onclick="navigateToSection('home')">Home</button>
+            <button class="nav-btn" onclick="navigateToSection('projects')">Projects</button>
+            <button class="nav-btn" onclick="navigateToSection('contact')">Contact</button>
+        </div>
+    </nav>
 
-<!-- HOME -->
-<section id="home">
-    <p class="home-eyebrow reveal">Available for work</p>
-    <h1 class="reveal reveal-delay-1">Hi, I'm <span>Thuan Huynh</span>.<br>I build Unity mobile<br>games.</h1>
-    <p class="home-bio reveal reveal-delay-2">
-        Unity Game Developer with 3+ years of experience building mobile games from concept to LiveOps. Experienced in
-        gameplay systems, performance optimization, and monetization-driven
-        development, with multiple shipped titles reaching millions of downloads. Passionate about creating engaging
-        player experiences through data-driven iteration and scalable system design.
-    </p>
-    <div class="home-tags reveal reveal-delay-3">
-        <span class="tag">Unity3D</span>
-        <span class="tag">C#</span>
-        <span class="tag">Performance Profiling</span>
-        <span class="tag">Performance Optimizing</span>
-        <span class="tag">Shader Programming</span>
-    </div>
-</section>
+    <!-- HOME -->
+    <section id="home">
+        <p class="home-eyebrow reveal">Available for work</p>
+        <h1 class="reveal reveal-delay-1">Hi, I'm <span>Thuan Huynh</span>.<br>I build Unity mobile<br>games.</h1>
+        <p class="home-bio reveal reveal-delay-2">
+            Unity Game Developer with 3+ years of experience building mobile games from concept to LiveOps. Experienced
+            in
+            gameplay systems, performance optimization, and monetization-driven
+            development, with multiple shipped titles reaching millions of downloads. Passionate about creating engaging
+            player experiences through data-driven iteration and scalable system design.
+        </p>
+        <div class="home-tags reveal reveal-delay-3">
+            <span class="tag">Unity3D</span>
+            <span class="tag">C#</span>
+            <span class="tag">Performance Profiling</span>
+            <span class="tag">Performance Optimizing</span>
+            <span class="tag">Shader Programming</span>
+        </div>
+    </section>
 
-<!-- PROJECTS -->
-<section id="projects">
-    <p class="section-label reveal">Selected Work</p>
-    <h2 class="reveal reveal-delay-1">Projects</h2>
-    <div class="projects-grid">
+    <!-- PROJECTS -->
+    <section id="projects">
+        <p class="section-label reveal">Selected Work</p>
+        <h2 class="reveal reveal-delay-1">Projects</h2>
+        <div class="projects-grid">
 
-        <!-- Project Card 1 -->
-        <div class="project-card reveal reveal-delay-1">
-            <img src="images/TrainMinerIcon.jpg" alt="Idle Train Miner Evolution" class="project-img"/>
-            <div class="project-body">
-                <h3 class="project-title">Idle Train Miner Evolution</h3>
-                <p class="project-desc">Hybrid idle clicker–simulation game centered on building and expanding a train
-                    mining empire, where players tap/hold to mine resources and merge train carriages into stronger
-                    locomotives.</p>
-                <div class="project-tech">
-                    <span class="tech-chip">Unity3D</span>
-                    <span class="tech-chip">C#</span>
-                    <span class="tech-chip">GPU Instancing</span>
-                    <span class="tech-chip">Custom shader</span>
+            <!-- Project Card 1 -->
+            <div class="project-card reveal reveal-delay-1">
+                <img src="images/TrainMinerIcon.jpg" alt="Idle Train Miner Evolution" class="project-img" />
+                <div class="project-body">
+                    <h3 class="project-title">Idle Train Miner Evolution</h3>
+                    <p class="project-desc">Hybrid idle clicker–simulation game centered on building and expanding a
+                        train
+                        mining empire, where players tap/hold to mine resources and merge train carriages into stronger
+                        locomotives.</p>
+                    <div class="project-extended" style="display: none;">
+                        <p>Hybrid idle clicker–simulation game centered on building and expanding a train mining empire,
+                            where players tap/hold to mine resources and merge train carriages into stronger
+                            locomotives.</p>
+                        <br>
+                        <h4>Key Features</h4>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li><strong>Merge Mechanics:</strong> Combine lower-level train cars to upgrade their mining
+                                speed and capacity.</li>
+                            <li><strong>Resource Management:</strong> Strategically allocate mined resources to unlock
+                                new mine shafts and unique locations.</li>
+                            <li><strong>Idle Progression:</strong> Continue earning income even while offline to ensure
+                                steady progression.</li>
+                        </ul>
+                        <br>
+                        <h4>Gameplay Demo</h4>
+                        <!-- Replace the 'src' with your actual YouTube embed link -->
+                        <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?si=123" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <br>
+                        <p>Developed using Unity3D, heavily utilizing GPU Instancing and Custom Shaders to ensure smooth
+                            performance even with hundreds of train carriages on-screen simultaneously.</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-chip">Unity3D</span>
+                        <span class="tech-chip">C#</span>
+                        <span class="tech-chip">GPU Instancing</span>
+                        <span class="tech-chip">Custom shader</span>
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://play.google.com/store/apps/details?id=com.indiez.train.miner" target="_blank"
+                            class="btn btn-outline">
+                            <img src="images/googleplay-svgrepo-com.png" alt="GooglePlay" width="14" height="14" />
+                            GooglePlay
+                        </a>
+                        <a href="https://apps.apple.com/vn/app/idle-train-miner-evolution/id6749367087" target="_blank"
+                            class="btn btn-outline">
+                            <img src="images/appstore-svgrepo-com.png" alt="AppStore" width="14" height="14" />
+                            AppStore
+                        </a>
+                    </div>
                 </div>
-                <div class="project-btns">
-                    <a href="https://play.google.com/store/apps/details?id=com.indiez.train.miner" target="_blank" class="btn btn-outline">
-                        <img src="images/googleplay-svgrepo-com.png" alt="GooglePlay" width="14" height="14"/>
-                        GooglePlay
-                    </a>
-                    <a href="https://apps.apple.com/vn/app/idle-train-miner-evolution/id6749367087" target="_blank" class="btn btn-outline">
-                        <img src="images/appstore-svgrepo-com.png" alt="AppStore" width="14" height="14"/>
-                        AppStore
-                    </a>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card reveal reveal-delay-1">
+                <img src="images/PocketBotsIcon.png" alt="Pocket Bots" class="project-img" />
+                <div class="project-body">
+                    <h3 class="project-title">Pocket Bots</h3>
+                    <p class="project-desc">A hybrid gacha-based robot combat game inspired by BattleBots, where players
+                        collect, mix, and match parts to build custom bots, then battle using physics-driven, realistic
+                        simulations.</p>
+                    <div class="project-tech">
+                        <span class="tech-chip">Unity3D</span>
+                        <span class="tech-chip">C#</span>
+                        <span class="tech-chip">Physics simulation</span>
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://play.google.com/store/apps/details?id=com.hsa.games.pocketbots" target="_blank"
+                            class="btn btn-outline">
+                            <img src="images/googleplay-svgrepo-com.png" alt="GooglePlay" width="14" height="14" />
+                            GooglePlay
+                        </a>
+                        <a href="https://apps.apple.com/us/app/pocket-bots-battle-robots/id6471459990" target="_blank"
+                            class="btn btn-outline">
+                            <img src="images/appstore-svgrepo-com.png" alt="AppStore" width="14" height="14" />
+                            AppStore
+                        </a>
+                    </div>
                 </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card reveal reveal-delay-1">
+                <img src="images/ModelRailwaysIcon.webp" alt="Model Railways" class="project-img" />
+                <div class="project-body">
+                    <h3 class="project-title">Model Railways</h3>
+                    <p class="project-desc">A hybrid idle-clicker simulation game where players build a model railway
+                        system
+                        by collecting and merging trains to upgrade them, generating income, and unlocking new layouts
+                        and
+                        expansions.</p>
+                    <div class="project-tech">
+                        <span class="tech-chip">Unity3D</span>
+                        <span class="tech-chip">C#</span>
+                        <span class="tech-chip">Spline-based Path System</span>
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://play.google.com/store/apps/details?id=model.railways.game3d" target="_blank"
+                            class="btn btn-outline">
+                            <img src="images/googleplay-svgrepo-com.png" alt="GooglePlay" width="14" height="14" />
+                            GooglePlay
+                        </a>
+                        <a href="https://apps.apple.com/vn/app/model-railways/id1660176890" target="_blank"
+                            class="btn btn-outline">
+                            <img src="images/appstore-svgrepo-com.png" alt="AppStore" width="14" height="14" />
+                            AppStore
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card reveal reveal-delay-1">
+                <img src="images/JellyCrushIcon.jpg" alt="Jelly Crush" class="project-img" />
+                <div class="project-body">
+                    <h3 class="project-title">Jelly Crush</h3>
+                    <p class="project-desc">A vibrant tap-to-blast puzzle game centered on strategic board clearing,
+                        where
+                        players match and explode clusters of colorful cubes to fulfill specific collection goals and
+                        progress through increasingly challenging levels.</p>
+                    <div class="project-tech">
+                        <span class="tech-chip">Unity3D</span>
+                        <span class="tech-chip">C#</span>
+                        <span class="tech-chip">Soft body</span>
+                        <span class="tech-chip">Grid-Based matching</span>
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://youtube.com/shorts/1UWvC9FyXFY?si=E1t9j47tV9ExJ-qL" target="_blank"
+                            class="btn btn-outline">
+                            <img src="images/youtube-168-svgrepo-com.png" alt="Youtube" width="14" height="14" />
+                            Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <p class="section-label reveal">Get In Touch</p>
+        <h2 class="reveal reveal-delay-1">Contact</h2>
+        <div class="contact-grid">
+
+            <a href="mailto:thuan.huynhqui@gmail.com" class="contact-card reveal reveal-delay-1">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="contact-label">Email</p>
+                    <p class="contact-value">thuan.huynhqui@gmail.com</p>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/thuận-huỳnh-b3a769237/" target="_blank"
+                class="contact-card reveal reveal-delay-2">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="contact-label">LinkedIn</p>
+                    <p class="contact-value">Thuận Huỳnh</p>
+                </div>
+            </a>
+
+            <a href="tel:+84936079600" class="contact-card reveal reveal-delay-3">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="contact-label">Phone</p>
+                    <p class="contact-value">+84 936 079 600</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal">&times;</button>
+            <div class="modal-img-container">
+                <img src="" alt="" class="modal-img" id="modal-img" />
+            </div>
+            <div class="modal-body">
+                <h3 id="modal-title" class="project-title">Project Title</h3>
+                <div class="project-tech" id="modal-tech"></div>
+                <p id="modal-desc" class="modal-desc">Project Description</p>
+                <div class="project-btns" id="modal-btns"></div>
             </div>
         </div>
-
-        <!-- Project Card 2 -->
-        <div class="project-card reveal reveal-delay-1">
-            <img src="images/PocketBotsIcon.png" alt="Pocket Bots" class="project-img"/>
-            <div class="project-body">
-                <h3 class="project-title">Pocket Bots</h3>
-                <p class="project-desc">A hybrid gacha-based robot combat game inspired by BattleBots, where players
-                    collect, mix, and match parts to build custom bots, then battle using physics-driven, realistic
-                    simulations.</p>
-                <div class="project-tech">
-                    <span class="tech-chip">Unity3D</span>
-                    <span class="tech-chip">C#</span>
-                    <span class="tech-chip">Physics simulation</span>
-                </div>
-                <div class="project-btns">
-                    <a href="https://play.google.com/store/apps/details?id=com.hsa.games.pocketbots" target="_blank" class="btn btn-outline">
-                        <img src="images/googleplay-svgrepo-com.png" alt="GooglePlay" width="14" height="14"/>
-                        GooglePlay
-                    </a>
-                    <a href="https://apps.apple.com/us/app/pocket-bots-battle-robots/id6471459990" target="_blank" class="btn btn-outline">
-                        <img src="images/appstore-svgrepo-com.png" alt="AppStore" width="14" height="14"/>
-                        AppStore
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project Card 3 -->
-        <div class="project-card reveal reveal-delay-1">
-            <img src="images/ModelRailwaysIcon.webp" alt="Model Railways" class="project-img"/>
-            <div class="project-body">
-                <h3 class="project-title">Model Railways</h3>
-                <p class="project-desc">A hybrid idle-clicker simulation game where players build a model railway system
-                    by collecting and merging trains to upgrade them, generating income, and unlocking new layouts and
-                    expansions.</p>
-                <div class="project-tech">
-                    <span class="tech-chip">Unity3D</span>
-                    <span class="tech-chip">C#</span>
-                    <span class="tech-chip">Spline-based Path System</span>
-                </div>
-                <div class="project-btns">
-                    <a href="https://play.google.com/store/apps/details?id=model.railways.game3d" target="_blank" class="btn btn-outline">
-                        <img src="images/googleplay-svgrepo-com.png" alt="GooglePlay" width="14" height="14"/>
-                        GooglePlay
-                    </a>
-                    <a href="https://apps.apple.com/vn/app/model-railways/id1660176890" target="_blank" class="btn btn-outline">
-                        <img src="images/appstore-svgrepo-com.png" alt="AppStore" width="14" height="14"/>
-                        AppStore
-                    </a>
-                </div>
-            </div>
-        </div>
-
     </div>
-</section>
 
-<!-- CONTACT -->
-<section id="contact">
-    <p class="section-label reveal">Get In Touch</p>
-    <h2 class="reveal reveal-delay-1">Contact</h2>
-    <div class="contact-grid">
+    <footer>
+        <p>© 2026 Your Name &nbsp;·&nbsp; Built with care</p>
+    </footer>
 
-        <a href="mailto:thuan.huynhqui@gmail.com" class="contact-card reveal reveal-delay-1">
-            <div class="contact-icon">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
-                </svg>
-            </div>
-            <div>
-                <p class="contact-label">Email</p>
-                <p class="contact-value">thuan.huynhqui@gmail.com</p>
-            </div>
-        </a>
-
-        <a href="https://www.linkedin.com/in/thuận-huỳnh-b3a769237/" target="_blank" class="contact-card reveal reveal-delay-2">
-            <div class="contact-icon">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
-                </svg>
-            </div>
-            <div>
-                <p class="contact-label">LinkedIn</p>
-                <p class="contact-value">Thuận Huỳnh</p>
-            </div>
-        </a>
-
-        <a href="tel:+84936079600" class="contact-card reveal reveal-delay-3">
-            <div class="contact-icon">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                </svg>
-            </div>
-            <div>
-                <p class="contact-label">Phone</p>
-                <p class="contact-value">+84 936 079 600</p>
-            </div>
-        </a>
-
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 Your Name &nbsp;·&nbsp; Built with care</p>
-</footer>
-
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
-</html>
 
+</html>
